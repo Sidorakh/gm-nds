@@ -22,10 +22,6 @@ function Stack() constructor {
 	static size = function() {
 		return array_length(ds);	
 	}
-	// @function empty()
-	static empty = function() {
-		ds = [];
-	}
 	// @function top()
 	static top = function() {
 		if (array_length(ds)) {
@@ -69,10 +65,6 @@ function Queue() constructor {
 	// @function size()
 	static size = function() {
 		return array_length(ds);	
-	}
-	// @function empty()
-	static empty = function() {
-		ds = [];
 	}
 	// @function head()
 	static head = function() {
@@ -147,10 +139,6 @@ function Priority() constructor {
 			new_priority.push(ds[i].val,ds[i].priority);
 		}
 		return new_priority;
-	}
-	// @function empty()
-	static empty = function() {
-		ds = [];
 	}
 	// @function delete_min()
 	static delete_min = function() {
