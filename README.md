@@ -24,7 +24,7 @@ Because YYG couldn't help but make [gm-sds](https://github.com/Sidorakh/gm-sds) 
 | `Queue.enqueue()` | Add one or multiple items to the queue |
 | `Queue.dequeue()` | Pop an item off the queue |
 | `Queue.head()` | Return the item at the front of the queue without removing it from the queue |
-| `Queue.tail()` | Return the item at the end of the queue without without removing it from the queue |
+| `Queue.tail()` | Return the item at the end of the queue without removing it from the queue |
 
 
 ## Priority
